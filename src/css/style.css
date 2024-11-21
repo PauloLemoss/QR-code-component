@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+main .container-qrcode{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+     padding: 20px;
+   height: auto;
+    
+}
+
+main .qrcode-image{
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+main .qrcode-information{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+main .qrcode-information .title-qrcode{
+    font-size: 20px;
+   margin-bottom: 10px;
+}

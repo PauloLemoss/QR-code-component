@@ -1,0 +1,28 @@
+@media(max-width: 375px){
+  
+  main{
+    width: 100%;
+    max-width: 250px;
+   
+  }
+  
+    .qrcode-information{
+   width: 100%;
+   max-width: 220px;
+
+   margin-right: 20px;
+  }
+
+  .title-qrcode{
+        width: 250px;
+       text-align: center;
+  }
+
+  .paragraph-qrcode{
+    width: 250px;
+    text-align: center
+    
+  }
+
+  
+}
